@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<form action="validacao" method= "post">
+			Usuario:<input type="text" name="nome" size="10"></br>
+			Senha:<input type="password" name="senha" size="10"></br>
+			<input type="submit" value="enviar">
+	</form>
 </body>
 </html>
